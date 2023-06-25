@@ -1,0 +1,19 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  height: 100vh;
+}
+.emojis-container {
+  padding: 10px 20vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emojis-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

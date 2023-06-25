@@ -1,0 +1,57 @@
+/* Write your code here. */
+.card-bg {
+  background-color: #ffffff33;
+  width: 40vw;
+  border: 2px solid #ffffff30;
+  border-radius: 15px;
+  padding: 15px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.result {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.score-text {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.display-score {
+  color: #6a59ff;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.win-lose-img {
+  width: 250px;
+  margin-left: 20px;
+}
+
+.play-button {
+  color: black;
+  background-color: #ffce27;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0;
+}
+.result-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.score-board {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
